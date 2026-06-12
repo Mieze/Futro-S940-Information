@@ -38,6 +38,7 @@ Each PCIe root port has its own variable to configure ASPM support:
 |#5|0x307|00:13.2|RTL8111 onboard LAN|
 |#6|0x308|00:13.3|PoE connector|
 
+Credits to [bern](https://eko.one.pl/forum/viewtopic.php?pid=332644#p332644) for figuring out to which root port the PoE connector is routed.
 
 These variables can take one of the following values to setup ASPM support for the corresponding port:
 
