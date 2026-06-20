@@ -4,11 +4,11 @@ Hacking the Futro S940
 ## Datasheets of the SoC
 Detailed datasheets of the Intel Pentium Silver and Intel Celeron SoC's are available for download at Intel's website. Volume 1 describes the general architecture and the hardware interfaces:
 
-[Intel Pentium Silver and Intel Celeron Processors - Datasheet Volume 1 od 2](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://cdrdv2-public.intel.com/336560/336560-glk-datasheet-volume1_rev005.pdf&ved=2ahUKEwiKvofb8oGVAxUQA9sEHQs9DP8QFnoECBoQAQ&usg=AOvVaw2OrarG-PAaiSxW3P3Zl4a8)
+[Intel Pentium Silver and Intel Celeron Processors - Datasheet Volume 1 of 2](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://cdrdv2-public.intel.com/336560/336560-glk-datasheet-volume1_rev005.pdf&ved=2ahUKEwiKvofb8oGVAxUQA9sEHQs9DP8QFnoECBoQAQ&usg=AOvVaw2OrarG-PAaiSxW3P3Zl4a8)
 
 Volume 2 contains the detailed documentation of the SoCs internal registers and it's integrated PCIe devices:
 
-[Intel Pentium Silver and Intel Celeron Processors - Datasheet Volume 2 od 2](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://cdrdv2-public.intel.com/336561/336561-glk-datasheet-volume2.pdf&ved=2ahUKEwj8lJzl4PqUAxWPX_EDHWhaAYwQFnoECBwQAQ&usg=AOvVaw2_Evcj3hlVqmmZjpHsN-nM)
+[Intel Pentium Silver and Intel Celeron Processors - Datasheet Volume 2 of 2](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://cdrdv2-public.intel.com/336561/336561-glk-datasheet-volume2.pdf&ved=2ahUKEwj8lJzl4PqUAxWPX_EDHWhaAYwQFnoECBwQAQ&usg=AOvVaw2_Evcj3hlVqmmZjpHsN-nM)
 
 
 ## Extract the UEFI Setup Variables
