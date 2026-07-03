@@ -1,7 +1,7 @@
-## 1. Required tools
+## 4.1 Required tools
 You need a tool to read/write UEFI setup variables called setup_var.efi, which is a rewritten version of the modified grub shell used to change UEFI variables in the past. Go to [setup_var.efi](https://github.com/datasone/setup_var.efi) to download the tool and get instructions how to use it.
 
-## 2. Enable ASPM
+## 4.2 Enable ASPM
 There is a global switch to enable ASPM support, which has to be changed first before you may setup ASPM for individual PCIe ports.
 
 |Name       |Variable|Value|Description          |
