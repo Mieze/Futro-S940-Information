@@ -1,24 +1,7 @@
-# Futro S940 Information
-Hacking the Futro S940
+## 1. Required tools
+You need a tool to read/write UEFI setup variables called setup_var.efi, which is a rewritten version of the modified grub shell used to change UEFI variables in the past. Go to [setup_var.efi](https://github.com/datasone/setup_var.efi) to download the tool and get instructions how to use it.
 
-## Datasheets of the SoC
-Detailed datasheets of the Intel Pentium Silver and Intel Celeron SoC's are available for download at Intel's website. Volume 1 describes the general architecture and the hardware interfaces:
-
-[Intel Pentium Silver and Intel Celeron Processors - Datasheet Volume 1 of 2](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://cdrdv2-public.intel.com/336560/336560-glk-datasheet-volume1_rev005.pdf&ved=2ahUKEwiKvofb8oGVAxUQA9sEHQs9DP8QFnoECBoQAQ&usg=AOvVaw2OrarG-PAaiSxW3P3Zl4a8)
-
-Volume 2 contains the detailed documentation of the SoCs internal registers and it's integrated PCIe devices:
-
-[Intel Pentium Silver and Intel Celeron Processors - Datasheet Volume 2 of 2](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://cdrdv2-public.intel.com/336561/336561-glk-datasheet-volume2.pdf&ved=2ahUKEwj8lJzl4PqUAxWPX_EDHWhaAYwQFnoECBwQAQ&usg=AOvVaw2_Evcj3hlVqmmZjpHsN-nM)
-
-
-## Extract the UEFI Setup Variables
-Todo
-
-The information provided below applies to version V5.0.0.13 R1.14.0 for the D3543-A1x board, which is used in the Fujitsu Futro S940 thin clients. Other versions may have different setup variables. Before you change any variable, make sure that you are the same version, because you might render your board unbootable if you change the wrong variable. Proceed with extreme caution!!!
-
-There is a tool to read/write UEFI setup variables called setup_var.efi, which is a rewritten version of the modified grub shell used to change UEFi variables in the past. Go to https://github.com/datasone/setup_var.efi to download the tool and get instructions how to use it.
-
-## Enable ASPM
+## 2. Enable ASPM
 There is a global switch to enable ASPM support, which has to be changed first before you may setup ASPM for individual PCIe ports.
 
 |Name       |Variable|Value|Description          |
