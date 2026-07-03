@@ -1,4 +1,4 @@
-## Extract the UEFI Setup Variables
+## 2. Extract the UEFI Setup Variables
 Todo
 
 
