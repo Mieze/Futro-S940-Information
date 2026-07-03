@@ -1,5 +1,5 @@
-# Modifying the Futro S940's UEFI
-## 1. Required tools
+## Modifying the Futro S940's UEFI
+### 5.1 Required tools
 - A computer running Linux x86_64 or Windows 10
 - The [Intel CSTXE System Tools v4 for Gemini Lake systems](https://comsystem-tlt.ru/ME_TXE/Intel%20CSTXE%20System%20Tools%20v4%20r6.rar).
 - A flash programming tool, e.g. a cheap CH341 based programmer with an 1.8V adapter (you would fry your flash chip without) and a clip to connect a fash chip in a SOP8 package [like this](https://github.com/Mieze/Futro-S940-Information/blob/main/images/flash_programmer.png).
